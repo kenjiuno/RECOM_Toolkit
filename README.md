@@ -43,4 +43,5 @@ Options asked:
 When you want to write the patch file, just leave blank a filename, it will create him
 
 
-Special Thanks to Keytotruth for having gave to me infos about the main LBA of RECOM ISO and Xeeynamo for having helped me to reverse engineer compression and decompression algorithms! Love you both <3```
+Special Thanks to Keytotruth for having gave to me infos about the main LBA of RECOM ISO and Xeeynamo for having helped me to reverse engineer compression and decompression algorithms! Love you both <3
+```

@@ -1,4 +1,5 @@
 #include <stddef.h>
+#include <stdlib.h>
 #include <stdio.h>	
 
      
@@ -79,7 +80,8 @@
             f = fopen(filename, "rb");
             if (!f)
                     printf("File open error\n");
-            length = _filelength(f->_file);
+            fseek(f, 0, SEEK_END);
+            length = ftell(f);
             if (fclose(f) == -1)
                     printf("File close error\n");
             return length;

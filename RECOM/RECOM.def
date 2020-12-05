@@ -1,0 +1,4 @@
+LIBRARY RECOM
+EXPORTS
+	Decode
+	Encode
